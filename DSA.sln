@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdenacaoPorSelecao", "OrdenacaoPorSelecao\OrdenacaoPorSelecao.csproj", "{9224D06A-081C-4CA8-9543-17EB1B4963FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuscaBinaria", "..\BuscaBinaria\BuscaBinaria.csproj", "{6AD26AB9-81FB-41A0-B270-B593F8B65E3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9224D06A-081C-4CA8-9543-17EB1B4963FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9224D06A-081C-4CA8-9543-17EB1B4963FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9224D06A-081C-4CA8-9543-17EB1B4963FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9224D06A-081C-4CA8-9543-17EB1B4963FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD26AB9-81FB-41A0-B270-B593F8B65E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD26AB9-81FB-41A0-B270-B593F8B65E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD26AB9-81FB-41A0-B270-B593F8B65E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD26AB9-81FB-41A0-B270-B593F8B65E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E0CA24A-06F5-461F-B680-ABB1C348AF3D}
+	EndGlobalSection
+EndGlobal
