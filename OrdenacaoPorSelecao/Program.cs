@@ -18,7 +18,7 @@
             int menor = nums[0];
             int indiceMenor = 0;
 
-            for(int i = 0; i < nums.Count; i++)
+            for(int i = 1; i < nums.Count; i++)
             {
                 if (nums[i] < menor)
                 {
@@ -27,7 +27,7 @@
                 }
             }
 
-            return menor;
+            return indiceMenor;
         }
 
         // [5, 3, 6, 2, 10]
@@ -38,9 +38,9 @@
 
             for (int i = 0; i < t; i++)
             {
-                int menor = Menor(nums);
-                novaLista.Add(menor);
-                nums.Remove(menor);
+                int indiceMenor = Menor(nums);
+                novaLista.Add(nums[indiceMenor]);
+                nums.Remove(nums[indiceMenor]);
             }
 
             return novaLista;
